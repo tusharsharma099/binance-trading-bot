@@ -1,20 +1,20 @@
-2026-02-25 20:28:51,264 - ERROR - Connection Failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
-2026-02-25 20:34:37,345 - INFO - Connection Successful! Binance Testnet se connect ho gaye hain.
-2026-02-25 20:34:37,346 - INFO - Available Balance: 5000.00000000 USDT
-2026-02-25 20:36:56,172 - INFO - Sending Order: BUY 0.001 BTCUSDT type: MARKET price: None
-2026-02-25 20:36:57,359 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
-2026-02-25 20:37:20,706 - INFO - Sending Order: BUY 0.001 BTCUSDT type: LIMIT price: 50000.0
-2026-02-25 20:37:21,396 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
-2026-02-25 20:43:06,588 - INFO - Sending Order: BUY 0.01 BTCUSDT type: MARKET price: None
-2026-02-25 20:43:07,400 - INFO - Order Successful! ID: 12546357115
-2026-02-25 20:43:24,800 - INFO - Sending Order: BUY 0.01 BTCUSDT type: LIMIT price: 50000.0
-2026-02-25 20:43:26,133 - INFO - Order Successful! ID: 12546357584
-2026-02-25 20:49:30,755 - INFO - Sending Order: SELL 0.01 BTCUSDT type: MARKET price: None
-2026-02-25 20:49:31,181 - INFO - Order Successful! ID: 12546367652
-2026-02-25 20:50:03,470 - ERROR - Error: LIMIT order ke liye --price dena zaroori hai!
-2026-02-25 20:51:05,207 - ERROR - Error: LIMIT ORDER
-2026-02-25 20:51:51,814 - ERROR - Error: LIMIT ORDER -- entering price is mandatory.
-2026-02-25 20:52:29,489 - INFO - Sending Order: BUY 0.1 ETHUSDT type: MARKET price: None
-2026-02-25 20:52:30,031 - INFO - Order Successful! ID: 8429369211
-2026-02-25 20:52:54,227 - INFO - Sending Order: BUY 0.0001 BTCUSDT type: MARKET price: None
-2026-02-25 20:52:54,956 - ERROR - Binance API Error: 400 - Precision is over the maximum defined for this asset.
+2026-02-25 20:28:51,264 - ERROR - Connection Failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action [cite: 32]
+2026-02-25 20:34:37,345 - INFO - Connection Successful: Connected to Binance Futures Testnet. [cite: 10, 31]
+2026-02-25 20:34:37,346 - INFO - Available Balance: 5000.00000000 USDT [cite: 6]
+2026-02-25 20:36:56,172 - INFO - Sending Order: BUY 0.001 BTCUSDT | Type: MARKET | Price: None [cite: 17, 18, 20, 26]
+2026-02-25 20:36:57,359 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100. [cite: 32]
+2026-02-25 20:37:20,706 - INFO - Sending Order: BUY 0.001 BTCUSDT | Type: LIMIT | Price: 50000.0 [cite: 17, 24, 26]
+2026-02-25 20:37:21,396 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100. [cite: 32]
+2026-02-25 20:43:06,588 - INFO - Sending Order: BUY 0.01 BTCUSDT | Type: MARKET | Price: None [cite: 26]
+2026-02-25 20:43:07,400 - INFO - Order Successful! ID: 12546357115 | Status: FILLED [cite: 27, 28]
+2026-02-25 20:43:24,800 - INFO - Sending Order: BUY 0.01 BTCUSDT | Type: LIMIT | Price: 50000.0 [cite: 26]
+2026-02-25 20:43:26,133 - INFO - Order Successful! ID: 12546357584 | Status: NEW [cite: 27, 28]
+2026-02-25 20:49:30,755 - INFO - Sending Order: SELL 0.01 BTCUSDT | Type: MARKET | Price: None [cite: 18, 26]
+2026-02-25 20:49:31,181 - INFO - Order Successful! ID: 12546367652 | Status: FILLED [cite: 27, 28]
+2026-02-25 20:50:03,470 - ERROR - Validation Error: Price is required for LIMIT orders. [cite: 32]
+2026-02-25 20:51:05,207 - ERROR - Validation Error: Invalid LIMIT order parameters. [cite: 32]
+2026-02-25 20:51:51,814 - ERROR - Validation Error: Price entry is mandatory for LIMIT orders. [cite: 32]
+2026-02-25 20:52:29,489 - INFO - Sending Order: BUY 0.1 ETHUSDT | Type: MARKET | Price: None [cite: 26]
+2026-02-25 20:52:30,031 - INFO - Order Successful! ID: 8429369211 | Status: FILLED [cite: 27, 28]
+2026-02-25 20:52:54,227 - INFO - Sending Order: BUY 0.0001 BTCUSDT | Type: MARKET | Price: None [cite: 26]
+2026-02-25 20:52:54,956 - ERROR - Binance API Error: 400 - Precision is over the maximum defined for this asset. [cite: 32]
